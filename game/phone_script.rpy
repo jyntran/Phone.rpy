@@ -58,7 +58,11 @@ label start:
 
     scene black
 
-menu table_of_contents:
+label table_of_contents:
+
+    hide screen Phone
+    
+menu:
     "Please select a section to read about."
     "Debug":
         jump tutorial_debug

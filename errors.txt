@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/phone_script.rpy", line 62: expected menuitem
+    hide screen Phone
+    ^
+
+Ren'Py Version: Ren'Py 6.99.4.467

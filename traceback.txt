@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/phone_script.rpy", line 245, in script
+    if delayFor(contactA, "<= 5"):
+  File "game/phone_script.rpy", line 245, in <module>
+    if delayFor(contactA, "<= 5"):
+  File "game/phone_python.rpy", line 76, in delayFor
+    return eval(delay+ifthis)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/phone_script.rpy", line 245, in script
+    if delayFor(contactA, "<= 5"):
+  File "C:\Users\bliptych\Documents\Renpy\renpy-6.99.1-sdk\renpy\ast.py", line 1593, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\bliptych\Documents\Renpy\renpy-6.99.1-sdk\renpy\python.py", line 1482, in py_eval
+    return eval(py_compile(source, 'eval'), globals, locals)
+  File "game/phone_script.rpy", line 245, in <module>
+    if delayFor(contactA, "<= 5"):
+  File "game/phone_python.rpy", line 76, in delayFor
+    return eval(delay+ifthis)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.4.467
+cellphone 0.0

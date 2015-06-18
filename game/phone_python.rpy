@@ -73,7 +73,7 @@ init python:
     def delayFor(contact, ifthis):
         delay = check_delay(contact)
         if delay:
-            return eval("delay"+ifthis)
+            return eval(str(delay)+ifthis)
         else:
             return False
 
